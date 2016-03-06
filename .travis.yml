@@ -11,5 +11,4 @@ deploy:
   env: dndapi
   bucket_name: elasticbeanstalk-eu-central-1-868723413534
   on:
-    repo: DnDMusicApi
-    branch: test
+      branch: test
