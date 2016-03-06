@@ -9,6 +9,6 @@ deploy:
   region: eu-west-1
   app: dndapi-test
   env: dndapi
-  bucket_name: elasticbeanstalk-eu-central-1-868723413534
+  bucket_name: elasticbeanstalk-eu-west-1-868723413534
   on:    
     branch: test
