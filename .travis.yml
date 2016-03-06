@@ -7,8 +7,8 @@ deploy:
   secret_access_key:
     secure: JcI/y/oEwetfFvJWD9vSRRoyUeQE743sKKXHqHgR
   region: eu-west-1
-  app: dndapi-test
-  env: dndapi
+  app: dndapi
+  env: dndapi-test
   bucket_name: elasticbeanstalk-eu-west-1-868723413534
   on:    
     branch: test
