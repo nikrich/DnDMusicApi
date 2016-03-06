@@ -5,7 +5,6 @@
 
 var request = require('supertest')
 var should = require('should')
-var app = require('../server')
 // other stuff you want to include for tests
 
 before(function (done) {
@@ -13,8 +12,8 @@ before(function (done) {
   done()
 })
 
-describe.skip('Users', function () {
-  describe('GET /users', function () {
+describe.skip('Categories', function () {
+  describe('GET /categories', function () {
     it('should get categories', function (done) {
       // fill the test
       done()
