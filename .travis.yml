@@ -6,9 +6,9 @@ deploy:
   access_key_id: AKIAIG3GNNT5I2X47UQQ
   secret_access_key:
     secure: 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
-  region: eu-west-1a
+  region: eu-west-1
   app: dndapi-test
   env: dndapi
   bucket_name: elasticbeanstalk-eu-central-1-868723413534
-  on:
-      branch: test
+  on:    
+    branch: test
