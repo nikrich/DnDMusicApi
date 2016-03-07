@@ -3,15 +3,12 @@ node_js:
 - 5.5.0
 deploy:
   provider: elasticbeanstalk
-  access_key_id: AKIAJHQOXBM7NISPC5JA
+  access_key_id: $key
   secret_access_key:
-    secure: 
+    secure: $secret
   region: eu-west-1
   app: dndapi
   env: dndapi-test
   bucket_name: elasticbeanstalk-eu-west-1-868723413534
   on:
     branch: test
-env:
-  global:
-    secure: u/5XOWAgp3I4oO+/PaqzeD7oXBGz+QiegSO7NIcQTtQOZGbc2fbYRdFsvEdXXbkm9q0xuPqdLwN1f73YuqqaOQ4Fhn9VGdtbap6UtOLosrthr7lJEez0FExzw+zkP3A7cD26eqAYGxPgx+JG1KsAauJSJhAobXWbcCgkTf0lMRHMKljt/pGEZOksYQFyWl+Yy06ztIbzAN4ssPcvLIyCVlyssmd6pkJPygfEa5cB2tBBQ3RFAvrfxDm43YR1msVuibcZZv+n8HDGE3cN2D72o4YEPxnrHxk/Ay0AHZLOiYOCleCaoFWrrXpYhGCeeOcKw4gH1tcWI8t9uc7G0w5MT8yv3hFKpFXwKvrDpUfmP25Wuc5s7tXOrz7fiukdPLSw0E4rvcRPP9XsgaEouxYUHmGfygpxdx5SpXk9r47LFwWlS0Rgvb27if5eef530L4D6DhuUV5kdlFEkDLAd7LCljOmf1fh5S+kT0HG6C9GqwZZNUdpMCYbLUSz/h1OH4549B3sxYZxGZur9JMXf4nteZpicpPK7NuZV2Ib7DmiAZtasO6MjfxmWuhrP5q242sQr1w56UTW0HLEZK+M9O34Ie9QvdVgLY3Jh/cB+l3DG0oHGm4mgRTVnSbH+rk3Ai6ekc5U37oyqr8t7HOe0h6Q/hWy5JPZJUMNagwNkOfOHlQ=
