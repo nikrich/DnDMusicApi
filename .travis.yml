@@ -3,13 +3,9 @@ node_js:
 - 5.5.0
 deploy:
   provider: elasticbeanstalk
-  access_key_id:
-    ? key: 
-    : 
+  access_key_id: AKIAJHQOXBM7NISPC5JA
   secret_access_key:
-    secure:
-      ? secret: 
-      : 
+    secure: 
   region: eu-west-1
   app: dndapi
   env: dndapi-test
@@ -18,4 +14,4 @@ deploy:
     branch: test
 env:
   global:
-    secure: RIzkRRTHDlpbkT2L8vHdFbtKx1h6CX8lSKArqLdS8l57F8bEVa6c/J+I3WHUYHR+ibJnzN3SiSgZfAz2cnQKbVaXRQHownzI54zFnkzTw2QVIqNn8e69WOBhJnKqEZVyJjZIMPQrTbIN1rlRaVoYUm3OfQH2K+KsHnkc7xIeQmxdxG390fXpmefq+WxESbv14030jx4MKO3FLso4gTmz4NT6TNWlM0v3F+qQcWzVWZIxh1z7bkwU/V+fQT0a4IkJRoDIgU5dvNg3na2KR/LYRW9NrNH9vCczKk9sJbjwARx+RlbgcZZzLYPWFJKFyPxux6cmgQHnZU8JITNx/WN4R9MMih3XZKEcfQJV4b1A4p6Pm/ycaUZU9oFJjH1UlTO8EHATc12eiWumLn7MP9aYNaZ1gw07kkV9NxrO7ixzQC2aFIhPlYSO6ps99TRGeKQ2j/JQ13W5oEJ1QgFr4zv5I49OmyhTs4z6vLMZD1qhAfbB4o0+kJUUfer7rtmuRlwjBCfv+GLy8b6L0DCgunRMP5jxuUnboWz298x6lX7w59tlWtR4aNzZRz6G0n2ThVTgZDWzl+Nmusbb/O/C1jDwIc+XwM8lxkZmnVdiYQUYavo5MqQ6U9hzuercNenorZ0dMlKQDOVuoq6uCzU1TPn2iPcjbCQrjtBNtcwvmKgAFDY=
+    secure: u/5XOWAgp3I4oO+/PaqzeD7oXBGz+QiegSO7NIcQTtQOZGbc2fbYRdFsvEdXXbkm9q0xuPqdLwN1f73YuqqaOQ4Fhn9VGdtbap6UtOLosrthr7lJEez0FExzw+zkP3A7cD26eqAYGxPgx+JG1KsAauJSJhAobXWbcCgkTf0lMRHMKljt/pGEZOksYQFyWl+Yy06ztIbzAN4ssPcvLIyCVlyssmd6pkJPygfEa5cB2tBBQ3RFAvrfxDm43YR1msVuibcZZv+n8HDGE3cN2D72o4YEPxnrHxk/Ay0AHZLOiYOCleCaoFWrrXpYhGCeeOcKw4gH1tcWI8t9uc7G0w5MT8yv3hFKpFXwKvrDpUfmP25Wuc5s7tXOrz7fiukdPLSw0E4rvcRPP9XsgaEouxYUHmGfygpxdx5SpXk9r47LFwWlS0Rgvb27if5eef530L4D6DhuUV5kdlFEkDLAd7LCljOmf1fh5S+kT0HG6C9GqwZZNUdpMCYbLUSz/h1OH4549B3sxYZxGZur9JMXf4nteZpicpPK7NuZV2Ib7DmiAZtasO6MjfxmWuhrP5q242sQr1w56UTW0HLEZK+M9O34Ie9QvdVgLY3Jh/cB+l3DG0oHGm4mgRTVnSbH+rk3Ai6ekc5U37oyqr8t7HOe0h6Q/hWy5JPZJUMNagwNkOfOHlQ=
