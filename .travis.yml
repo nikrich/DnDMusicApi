@@ -3,9 +3,13 @@ node_js:
 - 5.5.0
 deploy:
   provider: elasticbeanstalk
-  access_key_id: AKIAJHQOXBM7NISPC5JA
+  access_key_id:
+    ? key: 
+    : 
   secret_access_key:
-    secure: secure
+    secure:
+      ? secret: 
+      : 
   region: eu-west-1
   app: dndapi
   env: dndapi-test
