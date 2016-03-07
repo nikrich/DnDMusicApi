@@ -4,7 +4,6 @@ var categories = [
     {'environment': 'Shops'},
     {'environment': 'Nature - Day'},
     {'environment': 'Nature - Night'},
-    {'environment': 'Pub'},
-    {'environment': 'Pub - Night'}
+    {'environment': 'Pub'}
 ];
 export default categories;
