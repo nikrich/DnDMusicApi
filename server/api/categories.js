@@ -2,7 +2,8 @@ import resource from 'resource-router-middleware';
 import categories from '../models/categories';
 
 export default resource({
-
+    
+   
 	/** Property name to store preloaded entity on `request`. */
 	id : 'category',
 

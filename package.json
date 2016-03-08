@@ -20,7 +20,7 @@
     "compression": "^1.5.2",
     "cors": "^2.7.1",
     "express": "^4.13.3",
-    "resource-router-middleware": "^0.5.1"
+    "resource-router-middleware": "^0.6.0"
   },
   "bugs": {
     "url": "https://github.com/developit/express-es6-rest-api/issues"

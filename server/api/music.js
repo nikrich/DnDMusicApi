@@ -2,7 +2,8 @@ import resource from 'resource-router-middleware';
 import music from '../models/music';
 
 export default resource({
-
+    mergeParams: true,
+    
 	/** Property name to store preloaded entity on `request`. */
 	id : 'music',
 
@@ -18,9 +19,8 @@ export default resource({
 	},
     
 	/** GET / - List all entities */
-	index({ params }, res) {  
-        console.log(params);
-        var mus = music.find( m => m.cat_id==params.category )
+	index({ params }, res) {         
+        var mus = music.find( m => m.cat_id==params.id )
         
 		res.json(mus);
 	},
