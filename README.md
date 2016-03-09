@@ -8,7 +8,18 @@ Express & ES6 REST API for Dungeons and Dragons lovers
 - CORS support via [cors](https://github.com/troygoode/node-cors)
 - Body Parsing via [body-parser](https://github.com/expressjs/body-parser)
 
-Getting Started
+Contributing
+------------
+To contribute to the curated list of music for the api:
+
+- Fork the dev branch
+- Add your music links in the correct format to the server/models/music.js file
+- Make sure that the cat_id of the song matches the correct category in the server/models/categories.js file
+- If you want to add more categories, feel free to do so in the above mentioned file
+- Once done, create a pull request
+- NB! Do not fork the master branch
+
+Running it locally 
 ---------------
 
 ```sh
