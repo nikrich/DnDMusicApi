@@ -1,7 +1,7 @@
 Express & ES6 REST API for Dungeons and Dragons lovers
 ==================================
 
-[![alt tag](https://api.travis-ci.org/nikrich/DnDMusicApi.png)](https://travis-ci.org/nikrich/DnDMusicApi) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nikrich/DnDMusicApi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![alt tag](https://api.travis-ci.org/nikrich/DnDMusicApi.png)](https://travis-ci.org/nikrich/DnDMusicApi) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nikrich/DnDMusicApi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![devDependency Status](https://david-dm.org/nikrich/DnDMusicApi.svg)](https://david-dm.org/nikrich/DnDMusicApi)
 
 - ES6 support via [babel](https://babeljs.io)
 - REST resources as middleware via [resource-router-middleware](https://github.com/developit/resource-router-middleware)
