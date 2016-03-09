@@ -11,7 +11,7 @@ export default resource({
 	 *  Errors terminate the request, success sets `req[id] = data`.
 	 */
     
-	load(req, id, callback) {       
+	load(req, id, callback) {        
 		var mus = music.find( mus => mus.id==id ),
 		  err = mus ? null : 'Not found';
         
