@@ -20,7 +20,14 @@ export default resource({
     
 	/** GET / - List all entities */
 	index({ params }, res) {         
-        var mus = music.find( m => m.cat_id==params.id )
+        //var mus = music.find( m => m.cat_id==params.id )
+        var mus = []
+        for (var value of music) {
+            if(value.cat_id == params.id){
+                mus.push(value);
+            }
+        }
+            
         
 		res.json(mus);
 	},
