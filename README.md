@@ -1,6 +1,8 @@
 Express & ES6 REST API for Dungeons and Dragons lovers
 ==================================
 
+This API serves up a curated list of RPG and adventure style music from youtube for different environments and scenes. This API is currently being consumed by [DnDMusicAndroid](https://github.com/nikrich/DnDMusicAndroid) which is currently in development.
+
 [![alt tag](https://api.travis-ci.org/nikrich/DnDMusicApi.png)](https://travis-ci.org/nikrich/DnDMusicApi) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nikrich/DnDMusicApi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![devDependency Status](https://david-dm.org/nikrich/DnDMusicApi.svg)](https://david-dm.org/nikrich/DnDMusicApi)
 
 - ES6 support via [babel](https://babeljs.io)
@@ -13,7 +15,7 @@ Contributing
 To contribute to the curated list of music for the api:
 
 - Fork the dev branch
-- Add your music links in the correct format to the server/models/music.js file
+- Add the id of the youtube video in the correct format to the server/models/music.js file
 - Make sure that the cat_id of the song matches the correct category in the server/models/categories.js file
 - If you want to add more categories, feel free to do so in the above mentioned file
 - Once done, create a pull request
