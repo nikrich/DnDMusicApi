@@ -35,6 +35,7 @@ rm -rf .git && git init && npm init
 # Run it
 PORT=8080 npm start
 
+```
 
 License
 -------
