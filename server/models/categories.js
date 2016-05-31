@@ -9,6 +9,6 @@ var categories = [
     {'id': 6,  'environment': 'Sad',            'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
     {'id': 7,  'environment': 'Romantic',       'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
     {'id': 8,  'environment': 'Pub',            'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 9,  'environment': 'Witty',               'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
+    {'id': 9,  'environment': 'Witty',          'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
 ];
 export default categories;
