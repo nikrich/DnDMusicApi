@@ -1,14 +1,14 @@
 // our example model is just an Array
 var categories = [
-    {'id': 0,  'environment': 'Battle',         'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 1,  'environment': 'Shops',          'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 2,  'environment': 'Forest',         'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 3,  'environment': 'Ocean',          'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 4,  'environment': 'Swamp',          'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 5,  'environment': 'Mysterious',     'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 6,  'environment': 'Sad',            'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 7,  'environment': 'Romantic',       'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 8,  'environment': 'Pub',            'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
-    {'id': 9,  'environment': 'Witty',          'img': 'http://i.imgur.com/bPv7z0v.jpg?1'},
+    {'id': 0,  'name': 'Battle'},
+    {'id': 1,  'name': 'Shops'},
+    {'id': 2,  'name': 'Forest'},
+    {'id': 3,  'name': 'Ocean'},
+    {'id': 4,  'name': 'Swamp'},
+    {'id': 5,  'name': 'Mysterious'},
+    {'id': 6,  'name': 'Sad'},
+    {'id': 7,  'name': 'Romantic'},
+    {'id': 8,  'name': 'Pub'},
+    {'id': 9,  'name': 'Witty'},
 ];
 export default categories;
